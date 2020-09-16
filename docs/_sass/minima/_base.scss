@@ -6,6 +6,7 @@ p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 
@@ -98,21 +99,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
 /**
  * Links
  */
 a {
-  color: $brand-color;
+  color: $text-color;
   text-decoration: none;
+  background-image: linear-gradient(transparent 9px,#f4e25a 15px,transparent 5px);
+
 
   &:visited {
     color: darken($brand-color, 15%);
   }
 
   &:hover {
-    color: $text-color;
-    text-decoration: underline;
+    text-decoration: none;
+    background-image: linear-gradient(transparent 9px,#f2d15c 20px,transparent 5px);
   }
 
   .social-media-list &:hover {
@@ -252,3 +254,19 @@ table {
     border: 1px solid $grey-color-light;
   }
 }
+
+
+/*Custom*/
+.big-head{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #E4FEF2;
+}
+
+.strikeout {
+  background-image: linear-gradient(transparent 17px,#F1B292 17px,#F1B292 30px,transparent 2px);
+}
+
+
+
+

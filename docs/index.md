@@ -4,6 +4,7 @@
 
 layout: home
 ---
+ My Journey
 At my startup, we are going to start a new sprint cycle from next Wednesday and I am worried. Good worried. I think this is how a rockstar might feel when he is about to step on the stage. Yep, this is my stage to shine. To ease my nerves I decided to do a quick revision - What is the role of a Product manager in the scrum process?
 
 Important to note - Some teams have a product owner who takes part in the scrum. But we are a small team so there is no product owner. 
