@@ -105,7 +105,14 @@ li {
 }
 
 
-
+li > a {
+    text-decoration: none;
+    background-image: none;
+  &:hover {
+    text-decoration: none;
+    background-image: none;
+  }
+}
 /**
  * Headings
  */
@@ -270,8 +277,8 @@ table {
 
 /*Custom*/
 .big-head{
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 40px;
+  padding-bottom: 20px;
   background-color: #E4FEF2;
 }
 
@@ -308,11 +315,14 @@ table {
 
 .nav-link{
   margin-right: 8px;
+  font-size: 1.1rem;
+  font-weight: 300;
 }
 
 * {
   box-sizing: border-box;
 }
+
 
 /* Create two equal columns that floats next to each other */
 .column-1 {

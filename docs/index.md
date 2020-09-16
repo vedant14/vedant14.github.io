@@ -10,7 +10,7 @@ layout: home
 
 📞 +91 9767137428
 
-✉️ [vedant.lohbare@gmail.co](mailto:Vedant.lohbare@gmail.com?subject=In%20reference%20to%20your%20job%20application%20for%20Fam%20Pay)[m](mailto:Vedant.lohbare@gmail.com?subject=In%20reference%20to%20your%20job%20application%20for%20FamPay)
+✉️ [vedant.lohbare@gmail.com](mailto:Vedant.lohbare@gmail.com?subject=Hi%20Vedant%20)
 
 ---
 
