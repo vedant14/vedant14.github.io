@@ -1,0 +1,16 @@
+current directory: /Users/vedantlohbare/Documents/CodingProjects/Others/vedant14.github.io/docs/vendor/cache/ruby/2.7.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+/Users/vedantlohbare/.rbenv/versions/2.7.1/bin/ruby -I /Users/vedantlohbare/.rbenv/versions/2.7.1/lib/ruby/2.7.0 -r ./siteconf20200916-2367-9w2a57.rb extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /Users/vedantlohbare/Documents/CodingProjects/Others/vedant14.github.io/docs/vendor/cache/ruby/2.7.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+make "DESTDIR=" clean
+
+current directory: /Users/vedantlohbare/Documents/CodingProjects/Others/vedant14.github.io/docs/vendor/cache/ruby/2.7.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+make "DESTDIR="
+compiling unf.cc
+linking shared-object unf_ext.bundle
+
+current directory: /Users/vedantlohbare/Documents/CodingProjects/Others/vedant14.github.io/docs/vendor/cache/ruby/2.7.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 unf_ext.bundle ./.gem.20200916-2367-18jlz87
