@@ -1,16 +1,31 @@
 /**
  * Reset some basic elements
  */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
+body, p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
+  font-weight:300;
 }
 
+h1{
+  font-weight: 900;
+}
 
+h2, h3, h4, h5, h6{
+  font-weight: 500;
+}
 
+h1,h2, h3, h4, h5, h6{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+h2, h3, h4, h5, h6, .underline{
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #006dfc;
+}
 /**
  * Basic styling
  */
@@ -103,10 +118,10 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $text-color;
+  color: $brand-color;
+  font-weight:400;
   text-decoration: none;
-  background-image: linear-gradient(transparent 9px,#f4e25a 15px,transparent 5px);
-
+  background-image: linear-gradient(transparent 10px,#f4e25a 0px,#f4e25a 15px,transparent 0px);
 
   &:visited {
     color: darken($brand-color, 15%);
@@ -114,7 +129,8 @@ a {
 
   &:hover {
     text-decoration: none;
-    background-image: linear-gradient(transparent 9px,#f2d15c 20px,transparent 5px);
+    background-image: linear-gradient(transparent 10px,#f2d15c 0px,#f2d15c 20px,transparent 0px);
+
   }
 
   .social-media-list &:hover {
@@ -131,16 +147,12 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: $grey-color;
-  border-left: 4px solid $grey-color-light;
+  background-color: #f7f3f0;
+  border-left: 5px solid $grey-color;
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
-  letter-spacing: -1px;
+  letter-spacing: 0px;
   font-style: italic;
-
-  > :last-child {
-    margin-bottom: 0;
-  }
 }
 
 
@@ -188,8 +200,8 @@ pre {
   @include media-query($on-laptop) {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
     max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-    padding-right: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
   }
 }
 
@@ -258,15 +270,67 @@ table {
 
 /*Custom*/
 .big-head{
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #E4FEF2;
 }
 
 .strikeout {
-  background-image: linear-gradient(transparent 17px,#F1B292 17px,#F1B292 30px,transparent 2px);
+  background-image: linear-gradient(transparent 25px,#F1B292 20px,#F1B292 40px,transparent 10px);
+
+  &:hover {
+    text-decoration: none;
+    background-image: linear-gradient(transparent 25px,#F1B292 20px,#F1B292 50px,transparent 10px);
+  }
 }
 
 
+@media (min-width:450px) {
+  .card-image{
+    max-width: 100%;
+    width: 100px;
+    border-radius: 50px;
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
 
+.card-image{
+  max-width: 100%;
+  width: 200px;
+  border-radius: 50px;
+  float: right;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 10px 10px;
+}
 
+.nav-link{
+  margin-right: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column-1 {
+  float: left;
+  width: 60%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.column-2 {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
