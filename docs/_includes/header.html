@@ -1,8 +1,7 @@
 <header class="site-header big-head" role="banner">
-
   <div class="wrapper">
     <div class="row">
-      <div class="column-1">
+      <div class="col-md-8">
         <div class="row">
           {%- assign default_paths = site.pages | map: "path" -%}
           {%- assign page_paths = site.header_pages | default: default_paths -%}
@@ -16,12 +15,14 @@
                   <span class="nav-link">
                     <a class="page-link" href="{{ my_page.url | relative_url }}">[{{ my_page.title | escape }}]</a>
                   </span>
+                  
                   {%- endif -%}
               {%- endfor -%}
           {%- endif -%}
         </div>
       </div>
-      <div class="column-2">
+
+      <div class="col-md-4">
           <img class="card-image" src="/assets/img/vedant-min.jpg" alt="Image Description">
       </div>
     </div>

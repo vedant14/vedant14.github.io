@@ -21,10 +21,9 @@ h1,h2, h3, h4, h5, h6{
   margin-top: 10px;
   margin-bottom: 10px;
 }
-h2, h3, h4, h5, h6, .underline{
-  text-decoration: underline;
-  text-decoration-style: wavy;
-  text-decoration-color: #006dfc;
+h1, h2, h3, h4, h5, h6, .underline{
+    background-image: linear-gradient(transparent 50%,#F1B292 20%,#F1B292 68%,transparent 10px);
+    width: fit-content;
 }
 /**
  * Basic styling
@@ -128,7 +127,7 @@ a {
   color: $brand-color;
   font-weight:400;
   text-decoration: none;
-  background-image: linear-gradient(transparent 10px,#f4e25a 0px,#f4e25a 15px,transparent 0px);
+  background-image: linear-gradient(transparent 50%,#f2d15c 20%,#f2d15c 68%,transparent 10px);
 
   &:visited {
     color: darken($brand-color, 15%);
@@ -136,7 +135,7 @@ a {
 
   &:hover {
     text-decoration: none;
-    background-image: linear-gradient(transparent 10px,#f2d15c 0px,#f2d15c 20px,transparent 0px);
+    background-image: linear-gradient(transparent 20%,#f2d15c 10%,#f2d15c 68%,transparent 10px);
 
   }
 
@@ -282,14 +281,6 @@ table {
   background-color: #E4FEF2;
 }
 
-.strikeout {
-  background-image: linear-gradient(transparent 25px,#F1B292 20px,#F1B292 40px,transparent 10px);
-
-  &:hover {
-    text-decoration: none;
-    background-image: linear-gradient(transparent 25px,#F1B292 20px,#F1B292 50px,transparent 10px);
-  }
-}
 
 
 @media (min-width:450px) {
@@ -317,30 +308,4 @@ table {
   margin-right: 8px;
   font-size: 1.1rem;
   font-weight: 300;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-
-/* Create two equal columns that floats next to each other */
-.column-1 {
-  float: left;
-  width: 60%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-.column-2 {
-  float: left;
-  width: 40%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 }

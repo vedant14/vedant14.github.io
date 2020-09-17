@@ -4,15 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+> I am product manager at Homzhub - a prop-tech startup. In the 3 years of its existence, Homzhub has launched an online platform and 2 mobile apps for real estate investors and property agents.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+# Connect
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+📞 +91 9767137428
 
-
-[jekyll-organization]: https://github.com/jekyll
+✉️ [vedant.lohbare@gmail.com](mailto:Vedant.lohbare@gmail.com?subject=Hi%20Vedant%20)
