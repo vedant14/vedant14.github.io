@@ -1,7 +1,7 @@
 /**
  * Reset some basic elements
  */
-body, p, blockquote, pre, hr,
+body, p, blockquote, pre,
 dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
@@ -27,6 +27,13 @@ h1,h2, h3, h4, h5, h6{
 h1, .underline{
     background-image: linear-gradient(transparent 50%,#F1B292 20%,#F1B292 68%,transparent 10px);
     width: fit-content;
+}
+
+hr{
+  height: 2px;
+  background-color: darkblue;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 /**
  * Basic styling
@@ -106,16 +113,6 @@ li {
   }
 }
 
-
-li > a {
-    text-decoration: none;
-    background-image: none;
-  &:hover {
-    text-decoration: none;
-    background-image: none;
-  }
-}
-
 /**
  * Links
  */
@@ -132,16 +129,7 @@ a {
     text-decoration: none;
     background-image: linear-gradient(transparent 20%,#f2d15c 10%,#f2d15c 68%,transparent 10px);
   }
-
-  .social-media-list &:hover {
-    text-decoration: none;
-
-    .username {
-      text-decoration: underline;
-    }
-  }
 }
-
 
 /**
  * Blockquotes
@@ -216,29 +204,6 @@ pre {
   clear: both;
 }
 
-
-
-/**
- * Icons
- */
-
-.svg-icon {
-    width: 16px;
-    height: 16px;
-    display: inline-block;
-    fill: #{$grey-color};
-    padding-right: 5px;
-    vertical-align: text-top;
-}
-
-.social-media-list {
-  li + li {
-    padding-top: 5px;
-  }
-}
-
-
-
 /**
  * Tables
  */
@@ -308,10 +273,28 @@ table {
   text-align: center;
   display: block;
 }
-
-hr{
-  height: 2px;
-  background-color: darkblue;
-  margin-bottom: 50px;
+.navigate{
+  font-size: 1.2rem;
+  margin-right: 30px;
   margin-top: 50px;
+  font-weight: bold;
 }
+
+
+.social-media-list > a {
+    text-decoration: none;
+    margin-right: 10px;
+    background-image: none;
+}
+
+.svg-icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+    display: inline-block;
+    color: blue;
+    vertical-align: text-top;
+}
+
+
+
