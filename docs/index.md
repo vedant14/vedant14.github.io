@@ -13,7 +13,6 @@ layout: home
 # Work
 ### [Homzhub](https://www.homzhub.com){:target="_blank"}
 <span class="caption">[2017 - present]</span>\
-My spend my weekdays as a Product Owner at Homzhub.\
 I was hire no. 2 at this startup, when all of us used to sit and work from a small desk. Which was still too big for our small team then.\
 In these 3 years, we have grown to a <span class="underline"> team of 20, with offices in two cities and clients in 7+ countries, and have launched a website and two mobile apps.</span>
 
