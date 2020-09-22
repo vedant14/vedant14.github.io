@@ -253,14 +253,6 @@ table {
   }
 }
 
-.card-image{
-  max-width: 100%;
-  width: 200px;
-  padding-top: 10;
-  border-radius: 50px;
-  box-shadow: 10px 10px;
-}
-
 .nav-link{
   margin-right: 8px;
   font-size: 1.1rem;
@@ -296,5 +288,54 @@ table {
     vertical-align: text-top;
 }
 
+.position-relative {
+  position: relative !important;
+}
 
+.position-absolute {
+  position: absolute !important;
+}
+
+.device {
+  position: relative;
+}
+
+.device-macbook-screen {
+  position: absolute;
+  top: 6.8%;
+  left: 12.3%;
+  width: 75.1%;
+  height: 81.1%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.device-ipad {
+  border-radius: 1.25rem;
+  box-shadow: 0px 12px 15px rgba(140, 152, 164, 0.1);
+}
+
+.device-ipad-frame {
+  position: relative;
+  z-index: 2;
+  max-width: 100%;
+  height: auto;
+}
+
+.device-ipad-screen {
+  position: absolute;
+  top: 2.6%;
+  left: 4.2%;
+  width: 91.8%;
+  height: 94.2%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+
+.bg-img-hero {
+  background-size: auto;
+  background-repeat: repeat-x;
+  background-position: right;
+}
 
