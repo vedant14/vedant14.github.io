@@ -4,12 +4,8 @@
 
 layout: home
 ---
-> Hi, welcome to my site. This is still under development, but feel free to look around. Let me know if you find something interesting. I always like to participate in good conversations.
-
 <span class="navigate">Navigate: </span><a href="#work" class="navigate">Work</a> <a href="#side-projects" class="navigate">Side-Projects</a> <a href="#semi-interesting-facts" class="navigate">Semi interesting facts</a>
-
-
-<hr class="my-5">
+<hr class="mb-5 mt-2">
 # Work
 ### [Homzhub](https://www.homzhub.com){:target="_blank"}
 <span class="caption">[2017 - present]</span>\

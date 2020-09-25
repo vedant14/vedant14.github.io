@@ -11,7 +11,7 @@
 }
 
 .site-title {
-  @include relative-font-size(2.7);
+  @include relative-font-size(2.5);
   font-weight:900;
   text-orientation: left;
   line-height: $base-line-height * $base-font-size * 3.25;
