@@ -62,7 +62,7 @@ This e-commerce website was my first freelance experiment. TBH, at several point
 than I could chew</span>. But I managed to scrape through a pretty respectable
 web-app in the end.
 
-### [Better Product Manager](http://www.betterproductmanager.com){:target="_blank"}
+### [Better Product Manager](https://github.com/vedant14/realEstate){:target="_blank"}
 
 <span class="caption">[2020-present]</span>
 When I started working as a product manager, I wanted to learn as much
@@ -71,12 +71,11 @@ online for PMs to learn. But that also meant that you could get lost in
 different ideologies and never learn anything valuable. So that is why I
 created "Better Product Manager". <span class="underline">To document my own learnings really.</span>
 
-### [Real Estate CRM](https://realestatelistingapp.herokuapp.com){:target="_blank"}
+### [Real Estate Agent CRM](https://realestatelistingapp.herokuapp.com){:target="_blank"}
 <span class="caption">[2019]</span>\
 The first website, I built from code I wrote (Ruby on rails, if you're curious). It felt empowering, because
-you are literally creating something that did not exist before by simply
-writing words.\
-<span class="underline strong"> Isn't that magic?</span>
+you are literally creating something that did not exist before by simply writing words. <span class="underline strong"> Isn't that magic?</span>\
+I called hundreds of agents after launching this demo to see if they would be interested in buying this site. I literally went to 99Acres and MagicBricks, and picked agents by the city. Finally a few were interested but then because this was also my first code project, it wasn't a big enough value addition for them. <span class="underline strong"> All in, it was a great exposure and learning experience for me.</span> 
 
 
 <hr id="semi-interesting-facts">
