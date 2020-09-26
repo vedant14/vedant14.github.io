@@ -12,27 +12,31 @@ dl, dd, ol, ul, figure {
  * Headings
  */
 
-h1{
+h1, .h1{
   font-weight: 900;
+  display: block;
+  font-size: 2em;
+  text-align: center !important;
+
 }
 
-h2, h3, h4, h5, h6{
+h2, h3, h4, h5, h6, 
+.h2, .h3, .h4, .h5, .h6 {
   font-weight: 500;
 }
 
-h1,h2, h3, h4, h5, h6{
+h1,h2, h3, h4, h5, h6
+.h1, .h2, .h3, .h4, .h5, .h6 {
   margin-top: 50px;
   margin-bottom: 10px;
 }
-h1, .underline{
-    background-image: linear-gradient(transparent 50%,#F1B292 20%,#F1B292 68%,transparent 10px);
-    width: fit-content;
-}
+
+
 
 hr{
   height: 2px;
   background-color: darkblue;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   margin-top: 50px;
 }
 /**
@@ -59,6 +63,7 @@ body {
  * Set `margin-bottom` to maintain vertical rhythm
  */
 h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
@@ -120,14 +125,14 @@ a {
   color: $brand-color;
   font-weight:400;
   text-decoration: none;
-  background-image: linear-gradient(transparent 50%, #f5d76e 50%,#f2d15c 68%,transparent 10px);
+  background-image: linear-gradient(transparent 50%, #fdfd96 50%,#fdfd96 68%,transparent 10px);
   &:visited {
     color: darken($brand-color, 15%);
   }
 
   &:hover {
     text-decoration: none;
-    background-image: linear-gradient(transparent 20%,#f2d15c 10%,#f2d15c 68%,transparent 10px);
+    background-image: linear-gradient(transparent 20%,#fdfd96 10%,#fdfd96 68%,transparent 10px);
   }
 }
 
@@ -213,7 +218,7 @@ table {
   text-align: $table-text-align;
   color: lighten($text-color, 18%);
   border-collapse: collapse;
-  border: 1px solid $grey-color-light;
+  border: none;
   tr {
     &:nth-child(even) {
       background-color: lighten($grey-color-light, 6%);
@@ -223,12 +228,11 @@ table {
     padding: ($spacing-unit / 3) ($spacing-unit / 2);
   }
   th {
-    background-color: lighten($grey-color-light, 3%);
-    border: 1px solid darken($grey-color-light, 4%);
-    border-bottom-color: darken($grey-color-light, 12%);
+    margin-top: 10px;
+    border: none;
   }
   td {
-    border: 1px solid $grey-color-light;
+    border: none;
   }
 }
 
@@ -268,7 +272,6 @@ table {
 .navigate{
   @include relative-font-size(1.1);
   margin-right: 30px;
-  margin-top: 50px;
   font-weight: bold;
 }
 
@@ -284,18 +287,29 @@ table {
     height: 20px;
     margin-top: 2px;
     display: inline-block;
-    color: blue;
     vertical-align: text-top;
 }
 
-.position-relative {
-  position: relative !important;
+.head-icon {
+    width: 1.2em;
+    margin-top: 7px;
+    margin-right: auto;
+    margin-left: auto;
+    vertical-align: text-top;
 }
 
-.position-absolute {
-  position: absolute !important;
+
+.nav-icon > a {
+    text-decoration: none;
+    margin-right: 10px;
+    background-image: none;
 }
 
+.nav-icon {
+    width: 1.2em;
+    margin-top: 4px;
+    vertical-align: text-top;
+}
 
 /* Device */
 .device {
@@ -370,4 +384,15 @@ table {
   background-size: auto;
   background-repeat: repeat-x;
   background-position: bottom center;
+}
+
+
+.underline{
+    background-image: linear-gradient(transparent 45%,#F1B292 20%,#F1B292 90%,transparent 10px);
+    width: fit-content;
+}
+
+
+.second-head > a{
+  font-size: 2em;
 }
