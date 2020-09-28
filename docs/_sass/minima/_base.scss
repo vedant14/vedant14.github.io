@@ -393,6 +393,31 @@ table {
 }
 
 
-.second-head > a{
-  font-size: 2em;
+.bio-list{
+  list-style: none;
+  background-color: #cfcfc4;
+  padding: 20px 20px 20px 20px;
+  border-radius: 10px;
+}
+
+.word-count{
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.bio-first{
+  font-size: 1.6rem;
+}
+
+.bio-second{
+  font-size: 1.4rem;
+}
+
+
+.bio-third{
+  font-size: 1.2rem;
+}
+
+.text-center{
+    text-align: center !important;
 }
