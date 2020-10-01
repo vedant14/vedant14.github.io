@@ -5,7 +5,7 @@
 layout: home
 ---
 <div class="sticky-top">
-	<div class="h-4rem"></div>
+	<div class="h-4rem sr"></div>
 	<span class="navigate">Navigate: </span>
 		<a href="#work" class="navigate">
 			<svg class="nav-icon" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">   

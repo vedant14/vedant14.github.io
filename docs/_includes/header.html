@@ -1,38 +1,38 @@
-<header class="site-header bg-img-hero big-head" role="banner" 
-  style="background-image: url(/assets/img/background.svg);">
-  <div class="wrapper">
-    <div class="row">
+<header role="banner">
+  <svg class="head-blob" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" id="blobSvg">
+    <defs>
+      <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" style="stop-color: rgb(238, 205, 163);"></stop>
+        <stop offset="100%" style="stop-color: rgb(239, 98, 159);"></stop>
+      </linearGradient>
+    </defs>
+    <path id="blob" d="M434,306Q384,362,332.5,395Q281,428,212.5,431Q144,434,103,376.5Q62,319,60.5,249.5Q59,180,102.5,125Q146,70,217,51Q288,32,319,99Q350,166,417,208Q484,250,434,306Z" fill="url(#gradient)"></path>
+  </svg>
+  <img class="idea-image" src="/assets/img/idea.png" alt="Ideas are plenty">
+    <div class="row container mx-auto">
       <div class="col-md-8">
-        <div class="row">
-          {%- assign default_paths = site.pages | map: "path" -%}
-          {%- assign page_paths = site.header_pages | default: default_paths -%}
-          <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-        </div>
-        <div class="row d-block my-5">
-          {%- if page_paths -%}
-              {%- for path in page_paths -%}
-                {%- assign my_page = site.pages | where: "path", path | first -%}
-                  {%- if my_page.title -%}
-                  <span class="nav-link">
-                     <a class="page-link" href="{{ my_page.url | relative_url }}">[{{ my_page.title | escape }}]</a>
-                   </span>
-                  {%- endif -%}
-              {%- endfor -%}
-              {%- endif -%}
-        {%- include social.html -%}
+        <div class="site-title">
+          Hey, my name is Vedant Lohbare
+          <div>
+            {%- if page_paths -%}
+                {%- for path in page_paths -%}
+                  {%- assign my_page = site.pages | where: "path", path | first -%}
+                    {%- if my_page.title -%}
+                    <span class="nav-link">
+                       <a class="page-link" href="{{ my_page.url | relative_url }}">[{{ my_page.title | escape }}]</a>
+                     </span>
+                    {%- endif -%}
+                {%- endfor -%}
+                {%- endif -%}
+          {%- include social.html -%}
+          </div>
         </div>
       </div>
-
-      <div class="col-md-4">
-
+      <div class="col-md-4 phone-image">
             <div class="position-relative max-w-33rem mx-auto">
               <div class="device device-iphone-x w-85 mx-auto">
                 <img class="device-iphone-x-frame" src="/assets/img/iphone-x.svg" alt="Image Description">
                 <img class="device-iphone-x-screen" src="/assets/img/vedant-min.jpg" alt="Image Description">
-              </div>
-
-              <div class="card transition-3d-hover position-absolute top-50 right-20 z-index-2 max-w-33rem mr-n11 mt-9 shadow-lg">
-                <span class="py-1 caption px-3"> Ben Affleck was a better batman</span>
               </div>
             </div>
       </div>

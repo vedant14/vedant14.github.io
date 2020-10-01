@@ -1,22 +1,6 @@
 /**
  * Site header
  */
-.site-header {
-  border-top: 10px solid #F1B292;
-  min-height: $spacing-unit * 1.865;
-
-  // Positioning context for the mobile navigation icon
-  position: relative;
-}
-
-.site-title {
-  @include relative-font-size(2.5);
-  font-weight:900;
-  text-orientation: left;
-  line-height: $base-line-height * $base-font-size * 3.25;
-  letter-spacing: -1px;
-  margin-bottom: 0;
-}
 
 
 

@@ -1,0 +1,207 @@
+
+/*New Customs*/
+
+.head-blob{
+  position: absolute !important;
+  z-index: -2;
+  max-width: 700px;
+  left: -70px;
+}
+
+.idea-image{
+  position: absolute;
+  z-index: -1;
+  left: 5%;
+  max-width: 300px;
+  top: 200px;
+
+}
+
+@media (max-width: 450px) {                  
+   .idea-image {
+      display: none;
+   }
+   .head-blob {
+    width: 70%;
+   }
+}
+
+.site-title {
+  @include relative-font-size(2);
+  font-weight:900;
+  text-align: right;
+  margin-top: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  padding: 30px;
+}
+
+
+.phone-image {
+  margin-top: 10%;
+  filter: drop-shadow(3px 4px 1px #000000);
+}
+
+.bio-list{
+  list-style: none;
+  background: linear-gradient(180deg, #F8E08D 12.5%, #F5F1ED 100%);
+  border-radius: 20px 20px 0px 0px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 10px;
+}
+
+
+/*Old Customs*/
+
+
+.nav-link{
+  margin-right: 8px;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.caption{
+  font-size: 1rem;
+  font-style: italic;
+  text-align: center;
+  display: block;
+}
+.navigate{
+  @include relative-font-size(1.1);
+  margin-right: 30px;
+  font-weight: bold;
+}
+
+
+.social-media-list > a {
+    text-decoration: none;
+    margin-right: 10px;
+    background-image: none;
+}
+
+.svg-icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+.head-icon {
+    width: 1.2em;
+    margin-top: 7px;
+    margin-right: auto;
+    margin-left: auto;
+    vertical-align: text-top;
+}
+
+
+.nav-icon > a {
+    text-decoration: none;
+    margin-right: 10px;
+    background-image: none;
+}
+
+.nav-icon {
+    width: 1.2em;
+    margin-top: 4px;
+    vertical-align: text-top;
+}
+
+/* Device */
+.device {
+  position: relative;
+}
+
+
+.device-iphone-x {
+  border-radius: 2.75rem;
+  box-shadow: 0px 12px 15px rgba(140, 152, 164, 0.1);
+}
+
+.device-iphone-x-frame {
+  position: relative;
+  z-index: 2;
+  max-width: 100%;
+  height: auto;
+}
+
+.device-iphone-x-screen {
+  position: absolute;
+  top: 2.4%;
+  left: 4%;
+  width: 92.4%;
+  height: 96%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+
+
+.rounded {
+  border-radius: 0.3125rem !important;
+}
+
+
+
+.card {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0.0625rem solid #e7eaf3;
+  border-radius: 0.3125rem;
+  cursor: default; 
+}
+.transition-3d-hover {
+  transition: all 0.2s ease-in-out;
+}
+
+.transition-3d-hover:hover, .transition-3d-hover:focus {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+}
+
+
+.bg-img-hero {
+  background-size: auto;
+  background-repeat: repeat-x;
+  background-position: bottom center;
+}
+
+
+.underline{
+    background-image: linear-gradient(transparent 45%,#F1B292 20%,#F1B292 90%,transparent 10px);
+    width: fit-content;
+}
+
+
+
+
+.word-count{
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.bio-first{
+  font-size: 1.6rem;
+}
+
+.bio-second{
+  font-size: 1.4rem;
+}
+
+
+.bio-third{
+  font-size: 1.2rem;
+}
+
+.text-center{
+    text-align: center !important;
+}
