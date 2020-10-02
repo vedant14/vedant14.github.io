@@ -1,5 +1,5 @@
 
-/*New Customs*/
+/*Header*/
 
 .head-blob{
   position: absolute !important;
@@ -43,6 +43,37 @@
   filter: drop-shadow(3px 4px 1px #000000);
 }
 
+/* Device */
+.device {
+  position: relative;
+}
+
+
+.device-iphone-x {
+  border-radius: 2.75rem;
+  box-shadow: 0px 12px 15px rgba(140, 152, 164, 0.1);
+}
+
+.device-iphone-x-frame {
+  position: relative;
+  z-index: 2;
+  max-width: 100%;
+  height: auto;
+}
+
+.device-iphone-x-screen {
+  position: absolute;
+  top: 2.4%;
+  left: 4%;
+  width: 92.4%;
+  height: 96%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+
+/*BIO*/
 .bio-list{
   list-style: none;
   background: linear-gradient(180deg, #F8E08D 12.5%, #F5F1ED 100%);
@@ -52,10 +83,32 @@
 }
 
 
+.word-count{
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.bio-first{
+  font-size: 1.6rem;
+}
+
+.bio-second{
+  font-size: 1.4rem;
+}
+
+
+.bio-third{
+  font-size: 1.2rem;
+}
+
+
+
+/*Nav */
 .nav {
   padding-top: $spacing-unit;
   padding-bottom: 0px !important;
 }
+
 
 .nav-line {
   opacity: 0%;
@@ -77,6 +130,7 @@ div.scrollmenu a {
   margin-right: 100px;
   margin-bottom: 20px;
   background-image: none;
+  text-decoration: none;
 }
 
 div.scrollmenu::-webkit-scrollbar {
@@ -87,38 +141,58 @@ div.scrollmenu a:hover {
   background-image: none;
 }
 
+/*Experience Section*/
+.experience-cards{
+  display: block !important; 
+  margin-bottom: 200px;
+}
+
 .bg-img-hero {
-  background-size: cover;
+  width: 80%;
   background-position: top center;
-  position: relative !important;
-  min-height: 600px;
+  position: absolute !important;
+  border: solid black;
+  border-radius: 20px;
+}
+
+.image-right {
+  left: 50px;
+  box-shadow: 5px 5px 0px #000000;
+
+}
+
+.image-left {
+  right: 50px;
+  box-shadow: -5px 5px 0px #000000;
 }
 
 .content-card {
-  background: #E8E8E8;
+  background: linear-gradient(180deg, #F8E08D 12.5%, #F5F1ED 100%);
   position: relative !important;
   padding: 20px;
   max-width: 500px;
   width: 80%;
-  box-shadow: 5px 5px 0px #000000;
-  border-radius: 10px; 
+  border: solid black;
+  border-radius: 20px; 
   top: 100px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 
 .card-right {
   margin-right: 10%;
   margin-left: auto;
+  box-shadow: 5px 5px 0px #000000;
 }
 
 .card-left {
   margin-left: 10%;
   margin-right: auto;
+  box-shadow: -5px 5px 0px #000000;
 }
 
 .headline {
-    background-image: linear-gradient(transparent 45%,#F1B292 20%,#F1B292 90%,transparent 10px);
+    background-image: linear-gradient(transparent 55%,#4ca1af 20%,#4ca1af 90%,transparent 10px);
     width: fit-content;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -130,6 +204,8 @@ blockquote {
   font-weight: 300;
   font-style: italic;
 }
+
+
 
 
 
@@ -190,35 +266,6 @@ blockquote {
     vertical-align: text-top;
 }
 
-/* Device */
-.device {
-  position: relative;
-}
-
-
-.device-iphone-x {
-  border-radius: 2.75rem;
-  box-shadow: 0px 12px 15px rgba(140, 152, 164, 0.1);
-}
-
-.device-iphone-x-frame {
-  position: relative;
-  z-index: 2;
-  max-width: 100%;
-  height: auto;
-}
-
-.device-iphone-x-screen {
-  position: absolute;
-  top: 2.4%;
-  left: 4%;
-  width: 92.4%;
-  height: 96%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 0.5rem;
-}
-
 
 
 .rounded {
@@ -257,26 +304,3 @@ blockquote {
 }
 
 
-
-
-.word-count{
-  font-style: italic;
-  font-size: 1rem;
-}
-
-.bio-first{
-  font-size: 1.6rem;
-}
-
-.bio-second{
-  font-size: 1.4rem;
-}
-
-
-.bio-third{
-  font-size: 1.2rem;
-}
-
-.text-center{
-    text-align: center !important;
-}

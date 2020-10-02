@@ -122,17 +122,15 @@ li {
  * Links
  */
 a {
-  color: $brand-color;
+  color: inherit !important;
   font-weight:400;
-  text-decoration: none;
-  background-image: linear-gradient(transparent 50%, #fdfd96 50%,#fdfd96 68%,transparent 10px);
+  text-decoration: underline;
   &:visited {
     color: darken($brand-color, 15%);
   }
 
   &:hover {
-    text-decoration: none;
-    background-image: linear-gradient(transparent 20%,#fdfd96 10%,#fdfd96 68%,transparent 10px);
+    text-decoration: underline;
   }
 }
 
