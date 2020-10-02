@@ -30,7 +30,7 @@
   @include relative-font-size(2);
   font-weight:900;
   text-align: right;
-  margin-top: 35%;
+  margin-top: 25%;
   margin-left: auto;
   margin-right: auto;
   width: 350px;
@@ -50,6 +50,29 @@
   padding: 20px 20px 20px 20px;
   border-radius: 10px;
 }
+
+
+.bg-img-hero {
+  background-size: auto;
+  background-repeat: repeat-x;
+  background-position: bottom center;
+}
+
+
+.nav-wrapper {
+  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding: $spacing-unit;
+  padding-bottom: 0px !important;
+}
+
+.nav-line {
+  opacity: 0%;
+  margin-top: 10px;
+}
+
 
 
 /*Old Customs*/
@@ -168,12 +191,6 @@
           transform: translateY(-3px);
 }
 
-
-.bg-img-hero {
-  background-size: auto;
-  background-repeat: repeat-x;
-  background-position: bottom center;
-}
 
 
 .underline{
