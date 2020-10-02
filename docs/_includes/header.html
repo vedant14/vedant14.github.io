@@ -16,17 +16,7 @@
         <div class="site-title">
           Hey, my name is Vedant Lohbare
           <div>
-            {%- if page_paths -%}
-                {%- for path in page_paths -%}
-                  {%- assign my_page = site.pages | where: "path", path | first -%}
-                    {%- if my_page.title -%}
-                    <span class="nav-link">
-                       <a class="page-link" href="{{ my_page.url | relative_url }}">[{{ my_page.title | escape }}]</a>
-                     </span>
-                    {%- endif -%}
-                {%- endfor -%}
-                {%- endif -%}
-          {%- include social.html -%}
+            {%- include social.html -%}
           </div>
         </div>
       </div>

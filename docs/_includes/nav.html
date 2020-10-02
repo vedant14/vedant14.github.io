@@ -1,16 +1,11 @@
 <div class="sticky-top">
-	<div class="nav-wrapper">
-		<span class="navigate">Navigate: </span>
-			<a href="#work" class="navigate">
-				Work
-			</a> 
-			<a href="#side-projects" class="navigate">
-				Side-Projects
-			</a> 
-			<a href="#semi-interesting-facts" class="navigate">
-				
-				Semi interesting facts
-			</a>
-			<hr class="nav-line">
+	<div class="wrapper nav scrollmenu">
+		{% assign sorted = site.data.navigation | sort: 'position' %}
+		{% for experience in sorted %}
+			{% if experience.category == "nav" %}
+				<a href="{{experience.link | prepend: '#'}}">{{ experience.name | upcase }}  </a>
+			{% endif %}
+		{% endfor %}
 	</div>
+<hr class="mx-auto my-0 w-50" style="border: 1px solid #000000;">
 </div>

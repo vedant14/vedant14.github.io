@@ -1,0 +1,81 @@
+- name: Work
+  link: work
+  category: nav
+  position: 1
+
+- name: Experiences
+  link: experiences
+  category: nav
+  position: 2
+
+- name: Product Management
+  link: product-management
+  category: nav
+  position: 3
+
+
+- name: Homzhub
+  category: Work
+  position: 1
+  asset: homzhub.jpg
+  align: right
+  content: 
+    IVeda worked here for 4 years now. <br> It was an absolute privledge. <h3> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </h3> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+- name: Building Products
+  category: Experiences
+  position: 2
+  asset: Products.jpg
+  align: right
+  content: 
+    I worked here for 4 years now. <br> It was an absolute privledge. 
+    <h3> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </h3> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+- name: Free-lancing
+  category: Experiences
+  position: 3
+  asset: freelance.jpg
+  align: left
+  content: 
+    I worked here for 4 years now. <br> It was an absolute privledge. 
+    <h3> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </h3> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+- name: Writing
+  category: Experiences
+  position: 4
+  asset: blog.jpg
+  align: right
+  content: 
+    I worked here for 4 years now. <br> It was an absolute privledge. 
+    <h3> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </h3> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+- name: Failed Projects
+  category: Experiences
+  position: 5
+  asset: startups.jpg
+  align: left
+  content: 
+    I worked here for 4 years now. <br> It was an absolute privledge. 
+    <h3> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </h3> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+- name: Volunteer at Make A Difference
+  category: Experiences
+  position: 6
+  asset: makeadiff.jpg
+  align: right
+  content: 
+    I worked here for 4 years now. <br> It was an absolute privledge. 
+    <h3> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </h3> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+# - name: Empathy
+#   category: Product Management
+
+# - name: Enterprising
+#   category: Product Management
+  
+# - name: Empathy
+#   category: Product Management
+
+# - name: Empathy
+#   category: Product Management

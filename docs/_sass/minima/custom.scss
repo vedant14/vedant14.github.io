@@ -52,25 +52,83 @@
 }
 
 
-.bg-img-hero {
-  background-size: auto;
-  background-repeat: repeat-x;
-  background-position: bottom center;
-}
-
-
-.nav-wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-  margin-right: auto;
-  margin-left: auto;
-  padding: $spacing-unit;
+.nav {
+  padding-top: $spacing-unit;
   padding-bottom: 0px !important;
 }
 
 .nav-line {
   opacity: 0%;
   margin-top: 10px;
+}
+
+div.scrollmenu {
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  text-align: center;
+  @include relative-font-size(1.2);
+  font-weight: 300;
+  margin-right: 100px;
+  margin-bottom: 20px;
+  background-image: none;
+}
+
+div.scrollmenu::-webkit-scrollbar {
+  display: none; 
+}
+
+div.scrollmenu a:hover {
+  background-image: none;
+}
+
+.bg-img-hero {
+  background-size: cover;
+  background-position: top center;
+  position: relative !important;
+  min-height: 600px;
+}
+
+.content-card {
+  background: #E8E8E8;
+  position: relative !important;
+  padding: 20px;
+  max-width: 500px;
+  width: 80%;
+  box-shadow: 5px 5px 0px #000000;
+  border-radius: 10px; 
+  top: 100px;
+  margin-bottom: 10px;
+}
+
+
+.card-right {
+  margin-right: 10%;
+  margin-left: auto;
+}
+
+.card-left {
+  margin-left: 10%;
+  margin-right: auto;
+}
+
+.headline {
+    background-image: linear-gradient(transparent 45%,#F1B292 20%,#F1B292 90%,transparent 10px);
+    width: fit-content;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+blockquote {
+  border-left: 1px solid black;
+  padding-left: $spacing-unit / 2;
+  font-weight: 300;
+  font-style: italic;
 }
 
 
