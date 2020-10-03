@@ -1,0 +1,24 @@
+- name: Twitter
+  link: https://twitter.com/VedantLohbare
+  position: 2
+  icon: twitter.svg
+
+- name: Github
+  link: https://github.com/vedant14
+  position: 3
+  icon: github.svg
+
+- name: LinkedIn
+  link: https://www.linkedin.com/in/Vedantlohbare
+  position: 4
+  icon: linkedin.svg
+
+- name: Mail
+  link: mailto:vedant.lohbare@gmail.com?subject=Hi%2C%20I%20saw%20your%20site%20and%20thought%20I%20could%20connect.&body=Hi%2C%20my%20name%20is
+  position: 1
+  icon: mail.svg
+
+- name: Strava
+  link: https://www.strava.com/athletes/25910894
+  position: 5
+  icon: strava.svg

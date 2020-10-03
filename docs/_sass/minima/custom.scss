@@ -17,8 +17,17 @@
 
 }
 
+.other-image{
+  position: absolute;
+  z-index: -1;
+  left: 40%;
+  width: 500px;
+  top: 20px;
+}
+
+
 @media (max-width: 450px) {                  
-   .idea-image {
+   .idea-image, .other-image {
       display: none;
    }
    .head-blob {
@@ -27,10 +36,16 @@
 }
 
 
-.social-media-list > a {
+.social-media-list > a, .social-footer > a {
     text-decoration: none;
-    margin-right: 10px;
-    background-image: none;
+    margin-left: 10px;
+}
+
+.social-footer {
+  background: white;
+  width: 215px;
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .svg-icon {
@@ -54,50 +69,13 @@
 }
 
 
-.phone-image {
-  margin-top: 10%;
-  filter: drop-shadow(3px 4px 1px #000000);
-}
-
-/* Device */
-.device {
-  position: relative;
-}
-
-
-.device-iphone-x {
-  border-radius: 2.75rem;
-  box-shadow: 0px 12px 15px rgba(140, 152, 164, 0.1);
-}
-
-.device-iphone-x-frame {
-  position: relative;
-  z-index: 2;
-  max-width: 100%;
-  height: auto;
-}
-
-.device-iphone-x-screen {
-  position: absolute;
-  top: 2.4%;
-  left: 4%;
-  width: 92.4%;
-  height: 96%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 0.5rem;
-}
-
-
 /*BIO*/
 .bio-list{
   list-style: none;
-  background: linear-gradient(180deg, #F8E08D 12.5%, #F5F1ED 100%);
   border-radius: 20px 20px 0px 0px;
   padding: 20px 20px 20px 20px;
-  border-radius: 10px;
+  background: linear-gradient(180deg, #74AA8C 12.5%, #F5F1ED 100%);
 }
-
 
 
 /*Nav */
@@ -148,28 +126,28 @@ div.scrollmenu a:hover {
   width: 80%;
   background-position: top center;
   position: absolute !important;
-  border: solid black;
+  border: solid #070A0D;
   border-radius: 20px;
 }
 
 .image-right {
   left: 50px;
-  box-shadow: 5px 5px 0px #000000;
+  box-shadow: 5px 5px 0px #070A0D;
 
 }
 
 .image-left {
   right: 50px;
-  box-shadow: -5px 5px 0px #000000;
+  box-shadow: -5px 5px 0px #070A0D;
 }
 
 .content-card {
-  background: linear-gradient(180deg, #F8E08D 12.5%, #F5F1ED 100%);
   position: relative !important;
+  background: #74AA8C;
   padding: 20px;
   max-width: 500px;
   width: 80%;
-  border: solid black;
+  border: solid #070A0D;
   border-radius: 20px; 
   top: 100px;
   margin-bottom: 30px;
@@ -179,13 +157,13 @@ div.scrollmenu a:hover {
 .card-right {
   margin-right: 10%;
   margin-left: auto;
-  box-shadow: 5px 5px 0px #000000;
+  box-shadow: 5px 5px 0px #070A0D;
 }
 
 .card-left {
   margin-left: 10%;
   margin-right: auto;
-  box-shadow: -5px 5px 0px #000000;
+  box-shadow: -5px 5px 0px #070A0D;
 }
 
 .headline {
