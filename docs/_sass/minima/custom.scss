@@ -174,7 +174,7 @@ div.scrollmenu a:hover {
 
 
 /*Content Highlights*/
-.underline, .headline{
+underline{
     background-image: linear-gradient(transparent 45%,$headline-color 20%,$headline-color 90%,transparent 10px);
     width: fit-content;
 }
@@ -198,6 +198,15 @@ div.scrollmenu a:hover {
   font-size: 1.1rem;
 }
 
+
+.bio-fourth{
+  font-size: 1.1rem;
+}
+
+
+.bio-fifth{
+  font-size: 1.1rem;
+}
 
 
 

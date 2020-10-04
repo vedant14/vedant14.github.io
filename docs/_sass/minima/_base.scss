@@ -3,7 +3,6 @@ x/**
  */
 body, p, blockquote, pre,
 dl, dd, ol, ul, figure {
-  margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
   font-weight:300;
@@ -35,7 +34,7 @@ h1,h2, h3, h4, h5, h6
 
 hr{
   height: 2px;
-  border: #E5E5E5;
+  border: $shadow-color;
   margin-bottom: 100px;
   margin-top: 50px;
 }
@@ -123,11 +122,11 @@ li {
  * Links
  */
 a {
-  color: inherit !important;
-  font-weight:400;
+  color: inherit;
+  font-weight:500;
   text-decoration: underline;
   &:visited {
-    color: darken($brand-color, 15%);
+    color: inherit;
   }
 
   &:hover {
