@@ -1,1 +1,6 @@
-target.html
+---
+{% for member in site.data.issue  %}
+	{{member.title}} 
+	{{ member.body | markdownify }}
+{% endfor %}
+
