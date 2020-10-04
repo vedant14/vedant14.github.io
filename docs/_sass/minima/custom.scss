@@ -42,7 +42,7 @@
 }
 
 .social-footer {
-  background: white;
+  background: $background-color;
   width: 215px;
   padding: 20px;
   border-radius: 20px;
@@ -74,7 +74,7 @@
   list-style: none;
   border-radius: 20px 20px 0px 0px;
   padding: 20px 20px 20px 20px;
-  background: linear-gradient(180deg, #74AA8C 12.5%, #F5F1ED 100%);
+  background: linear-gradient(180deg, $brand-color 12.5%, $background-color 100%);
 }
 
 
@@ -126,30 +126,31 @@ div.scrollmenu a:hover {
   width: 80%;
   background-position: top center;
   position: absolute !important;
-  border: solid #070A0D;
+  border: solid $shadow-color;
   border-radius: 20px;
 }
 
 .image-right {
   left: 50px;
-  box-shadow: 5px 5px 0px #070A0D;
+  box-shadow: 5px 5px 0px $shadow-color;
 
 }
 
 .image-left {
   right: 50px;
-  box-shadow: -5px 5px 0px #070A0D;
+  box-shadow: -5px 5px 0px $shadow-color;
 }
 
 .content-card {
   position: relative !important;
-  background: #74AA8C;
+  background: $brand-color;
   padding: 20px;
   max-width: 500px;
   width: 80%;
-  border: solid #070A0D;
+  min-height: 400px;
+  border: solid $shadow-color;
   border-radius: 20px; 
-  top: 100px;
+  top: 110px;
   margin-bottom: 30px;
 }
 
@@ -157,46 +158,44 @@ div.scrollmenu a:hover {
 .card-right {
   margin-right: 10%;
   margin-left: auto;
-  box-shadow: 5px 5px 0px #070A0D;
+  box-shadow: 5px 5px 0px $shadow-color;
 }
 
 .card-left {
   margin-left: 10%;
   margin-right: auto;
-  box-shadow: -5px 5px 0px #070A0D;
+  box-shadow: -5px 5px 0px $shadow-color;
 }
 
 .headline {
-    background-image: linear-gradient(transparent 55%,#4ca1af 20%,#4ca1af 90%,transparent 10px);
-    width: fit-content;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 
 /*Content Highlights*/
-.underline{
-    background-image: linear-gradient(transparent 45%,#F1B292 20%,#F1B292 90%,transparent 10px);
+.underline, .headline{
+    background-image: linear-gradient(transparent 45%,$headline-color 20%,$headline-color 90%,transparent 10px);
     width: fit-content;
 }
 
 
-.word-count{
+.caption{
   font-style: italic;
   font-size: 1rem;
 }
 
 .bio-first{
-  font-size: 1.6rem;
+  font-size: 1.3rem;
 }
 
 .bio-second{
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 
 .bio-third{
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 

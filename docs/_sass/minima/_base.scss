@@ -1,4 +1,4 @@
-/**
+x/**
  * Reset some basic elements
  */
 body, p, blockquote, pre,
@@ -54,6 +54,7 @@ body {
   font-kerning: normal;
   display: flex;
   min-height: 100vh;
+  margin: 0px !important;
   flex-direction: column;
 }
 
@@ -239,8 +240,8 @@ table {
 
 .site-footer {
   padding: 50px;
-  background-color: #070A0D;
-  color: #E5E5E5;
+  background-color: $shadow-color;
+  color: $text-white;
 
 }
 

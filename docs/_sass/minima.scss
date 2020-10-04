@@ -11,9 +11,13 @@ $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:       #070A0D !default;
-$background-color: #F5F1ED !default;
-$brand-color:      #070A0D !default;
+$text-color:       	#070A0D !default;
+$text-white: 		#e7e7de !default;
+$background-color: 	#e7e7de !default; /*For the background*/
+$brand-color:      	#74AA8C !default; /*For cards background*/
+$shadow-color:      #303841 !default; /*For the shadows, borders and the ruler*/
+$headline-color: 	#ff5722 !default; /*Highlights and underline and the thumb*/
+
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;

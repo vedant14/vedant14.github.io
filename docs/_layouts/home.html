@@ -2,35 +2,9 @@
 layout: default
 ---
 <div class="home">
-		{%- include bio.html -%}
-		{%- include nav.html -%}
-		{% assign navs = site.data.navigation | sort: 'position' %}
-		{% for nav in navs %}
-			{% if nav.category == "nav" %}
-				<hr id="{{nav.link}}">
-				<div class="wrapper"> 
-					<h2 class="headline"> {{ nav.name }} </h2>
-				</div>
-				{% assign sorted = site.data.navigation | sort: 'position' %}
-				{% for experience in sorted %}
-					{% if experience.category == nav.name and experience.category != "Product Management" %}
-					<div class="experience-cards">
-		                <img class="bg-img-hero {{experience.align | prepend: 'image-' }} " src="{{ experience.asset | prepend: '/assets/img/'}}" alt="{{experience.name | prepend: 'image-'}}">
-
-						  <div class="content-card {{experience.align | prepend: 'card-'}}">
-						  	<h3> {{experience.name }} </h3>
-						  	<span class="caption">{{experience.date}} </span>
-						  	<span>{{ experience.content }}</span>
-						  </div>
-					</div>
-		    		{% endif %}
-
-		    		{% if nav.name == "Product Management" and experience.category == "Product Management" %}
-		    			{{ experience.name }}
-		    		{% endif %}
-
-	    		{% endfor %}
-			{% endif %}	
-		{% endfor %}
+    {%- include header.html -%}
+	{%- include bio.html -%}
+	{%- include nav.html -%}
+	{%- include content.html -%}
 </div>
 
