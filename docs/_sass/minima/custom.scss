@@ -218,7 +218,7 @@ underline{
   top: -90px;
   font-family: $base-head-font;
   left: -5px;
-  @include relative-font-size(20);
+  font-size: 17rem;
   color: $text-lighter;
   opacity: 20%;
 }
