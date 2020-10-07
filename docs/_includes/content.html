@@ -11,9 +11,12 @@
                 <img class="bg-img-hero {{experience.align | prepend: 'image-' }} " src="{{ experience.asset | prepend: '/assets/img/'}}" alt="{{experience.name | prepend: 'image-'}}">
 
 				  <div class="content-card {{experience.align | prepend: 'card-'}}">
+				  	<span class="drop-case">
+				  		{{experience.name | split: "" | first }}.
+				  	</span>
 				  	<h3> {{experience.name }} </h3>
 				  	<p class="caption">{{experience.date}} </p>
-				  	<span>{{ experience.content }}</span>
+				  	<span class="z-index-4">{{ experience.content }}</span>
 				  </div>
 			</div>
     		{% endif %}

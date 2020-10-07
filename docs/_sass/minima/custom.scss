@@ -180,7 +180,8 @@ underline{
 
 
 .caption{
-  font-size: 0.9rem;
+  font-size: 0.95rem;
+  font-style: italic;
   color: $text-lighter;
 }
 
@@ -207,9 +208,17 @@ underline{
   font-size: 1rem;
 }
 
-
-
 .footer-a > a {
   color: $text-white !important;
   text-decoration: underline !important;
+}
+
+.drop-case{
+  position: absolute;
+  top: -90px;
+  font-family: $base-head-font;
+  left: -5px;
+  @include relative-font-size(20);
+  color: $text-lighter;
+  opacity: 20%;
 }
