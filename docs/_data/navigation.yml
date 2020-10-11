@@ -8,10 +8,10 @@
   category: nav
   position: 2
 
-- name: Product Management
-  link: product-management
-  category: nav
-  position: 3
+# - name: Product Management
+#   link: product-management
+#   category: nav
+#   position: 3
 
 
 - name: Homzhub
