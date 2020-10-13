@@ -40,3 +40,5 @@ In Homzhub team, we still had a CPO, a quality tester and me. We interviewed a f
 ### Private Beta Release
 - Scheduled for end of october. 
 
+https://www.notion.so/Payment-Pages-93c848d56a3348da92a5fa4e72d1c406
+
