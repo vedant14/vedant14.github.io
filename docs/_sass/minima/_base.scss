@@ -7,7 +7,6 @@ dl, dd, ol, ul, figure {
   font-family: $base-font-family;
   font-weight:400;
   transition: all 1s ease;
-
 }
 /**
  * Headings
@@ -16,7 +15,6 @@ dl, dd, ol, ul, figure {
 h1,.h1{
   display: block;
   font-size: 2em;
-  text-align: center;
 }
 
 
@@ -29,12 +27,10 @@ h1,h2, h3, h4, h5, h6,
 }
 
 
-
 hr{
   height: 2px;
   border: $shadow-color;
   margin-bottom: 100px;
-  margin-top: 50px;
 }
 /**
  * Basic styling
@@ -135,7 +131,15 @@ a {
 /**
  * Blockquotes
  */
-
+blockquote{
+  border-left: solid 3px $shadow-color;
+  font-size: 1.1rem;
+  padding-left: 25px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
 
 /**
  * Code formatting
@@ -253,3 +257,10 @@ table {
   margin-bottom: 40px;
 }
 
+
+strong {
+  font-weight: 500 !important;
+  font-style: bold;
+  text-decoration: underline;
+  font-size: 1.1rem;
+}

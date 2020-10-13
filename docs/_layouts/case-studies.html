@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="wrapper">
+  <h1 class="site-title mt-5">{{page.name}}</h1>
+  <p> {{page.tag}} </p>
+
+  <div class="px-5 my-4">
+          <img class="case-study-image" src="{{ page.asset | prepend: '/assets/img/case-study/'}}" alt="{{page.name | prepend: 'image-'}}">
+  </div>
+
+  <div class="my-4">{{page.content | markdownify  }}</div>
+
+</div>
