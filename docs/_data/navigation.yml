@@ -9,10 +9,10 @@
   position: 2
 
 
-- name: Case-Studies
-  link: /case-studies
-  category: bignav
-  position: 3
+# - name: Case-Studies
+#   link: /case-studies
+#   category: bignav
+#   position: 3
 
 
 # - name: Empathy
