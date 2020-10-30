@@ -10377,3 +10377,4 @@ a:hover .text-hover-primary { color: #0052ea !important; }
   100% { opacity: 1; } }
 /*------------------------------------ File for your custom SCSS style
 ------------------------------------*/
+.home { overflow-x: hidden; }
