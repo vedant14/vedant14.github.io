@@ -1,9 +1,0 @@
-<div class="sticky-top">
-    <div class="wrapper nav scrollmenu" id="myDIV">
-        {% assign sorted = site.data.navigation | sort: 'position' %}
-        {% for experience in sorted %}
-            <a href="{{experience.link }}">{{ experience.name | upcase }}  </a>
-        {% endfor %}
-    </div>
-<hr class="mx-auto my-0 w-50" style="border: 1px solid #303841;">
-</div>
