@@ -1,17 +1,33 @@
 ---
 layout: default
 ---
-
-<div class="wrapper case-study">
-  	<h1 class="site-title mt-5 ">{{page.name}}</h1>
-	<hr class="solid-line mx-auto">
-
-  	<p> {{page.tag}} </p>
-
-  	<div class="px-5 my-5">
-          <img class="case-study-image" src="{{ page.asset | prepend: '/assets/img/case-study/'}}" alt="{{page.name | prepend: 'image-'}}">
-  	</div>
-
-  	<div class="my-5">{{page.content | markdownify  }}</div>
-
+<div class="case-study">
+	<div class="title">
+		<h1>{{page.name}}</h1> 
+		<a href="/case-studies">Back to all case studies </a>
+	</div>
+	<p>📌 &nbsp;&nbsp; {{page.tag}}</p>
+	<div class="card">
+		<h3>Sections</h3>
+		<ol>
+			{% for section in site.case_sections %} 
+				{% if section.case_study == page.position %}
+					<a href="#{{section.name}}">
+						<li>{{ section.name }} </li>
+					</a>	
+				{% endif %} 
+			{% endfor %}
+		</ol>
+	</div>
+	<div class="px-5 my-5">
+		<!-- <img class="case-study-image" src="{{ page.asset | prepend: '/assets/img/case-study/'}}" alt="{{page.name | prepend: 'image-'}}"> -->
+	</div>
+	{% for section in site.case_sections %} 
+		{% if section.case_study == page.position %}
+				<div id="{{section.name}}" class="content">
+					<h1>{{ section.name }} </h1>
+					{{section.content | markdownify}}
+				</div>
+		{% endif %} 
+	{% endfor %}
 </div>

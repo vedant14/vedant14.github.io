@@ -279,48 +279,102 @@ div.scrollmenu a:hover {
   background-image: none;
 }
 
-.solid-line{
-  border: dashed $shadow-color 0.5px;
-  margin-bottom: 3rem;
-  margin-top: 3rem;
-  width: 50%;
+
+/*Case Study*/
+.case-study{
+  max-width: 1000px;
+   margin: 50px auto;
+  @media screen and (min-width: 768px) {
+    margin: 150px auto;
+  }
+  padding: 0px 50px;
+  > p {
+    background: #4293a0;
+    padding: 20px 20px;
+    border-radius: 5px;
+  }
 }
 
-.case-study-image{
-  max-width: 100%;
+.card{
+  background: $brand-color;
+  padding: 20px 20px;
+
   border-radius: 5px;
-  border: solid 1px $shadow-color;
+  > h3{
+    cursor: default;
+    padding-inline-start: 20px;
+    margin: 0px;
+    border: 1px dotted $shadow-color;
+    padding: 2px 10px;
+    width: fit-content;
+    &:hover{
+      background: $shadow-color;
+      color: $text-white;
+    }
+  }
+  > ol > a > li{
+    color: $text-color;
+    border-radius: 2px;
+    padding: 2px 5px;
+    &:hover{
+      background: $text-white;
+      text-decoration: underline;
+    };
+  }
 }
 
-.case-study-card > a{
-  padding: 20px;
-  color: $text-color !important;
-
+.title {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    > a {
+      margin-left: 100px;
+      margin-top: 30px;
+    }
+  }
+  > h1 {
+    cursor: default;
+    border: 1px dotted $shadow-color;
+    padding: 2px 20px;
+    width: fit-content;
+    &:hover{
+      background: $shadow-color;
+      color: $text-white;
+    }
+  }
+  > a {
+    color: $text-lighter !important;
+    text-decoration: underline;
+    &:hover{
+      color: $text-color;
+    }
+  }
 }
 
-/*Inside the case study document*/
-
-.case-study {
-  hr{
-    margin-left: 0px;
+.content{
+  cursor: default;
+  max-width: 800px;
+  > p, > ul > li {
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+  }
+  > ul > li {
     margin-top: 10px;
-    margin-bottom: 20px;
-    border: dashed $shadow-color 0.5px;
-    width: 50%;
   }
-  p{
-    color: $text-lighter;
+  > h1 {
+    font-size: 30px;
+    line-height: 3rem;
+    padding-top: 100px;
+    border-bottom: 1px solid $shadow-color;
   }
-  h3{
-    padding-left: 20px;
-    border-left: solid 0.5px $shadow-color;
-  }
-  li{
-    list-style-type: "»";
-    padding-inline-start: 10px;
-  }
-  li::marker{
-    font-size: 1.2rem;
-    --hue: 50;
+  > h2 {
+    margin-bottom: 0px;
+    margin-top: 30px;
+    border: 1px dotted $shadow-color;
+    padding: 2px 10px;
+    width: fit-content;
+    &:hover{
+      background: $shadow-color;
+      color: $text-white;
+    }
   }
 }

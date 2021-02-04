@@ -27,6 +27,8 @@ collections:
   case_studies:
     output: true
     permalink: /case-studies/:slug
+  case_sections:
+
   # products:
   #   output: true
   #   permalink: /projects/:slug
