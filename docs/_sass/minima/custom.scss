@@ -298,8 +298,10 @@ div.scrollmenu a:hover {
 .card{
   background: $brand-color;
   padding: 20px 20px;
-
   border-radius: 5px;
+  > a {
+    color: $text-color !important;
+  }
   > h3{
     cursor: default;
     padding-inline-start: 20px;

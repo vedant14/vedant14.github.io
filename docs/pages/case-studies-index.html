@@ -6,25 +6,26 @@ permalink: /case-studies/
 {%- include nav.html -%}
 <div class="wrapper">
 	<h1 class="site-title mt-5">Case Studies</h1>
-	<hr class="solid-line">
+	<hr>
 	<blockquote>Man plans and God laughs</blockquote>
 	<small>I write this section with this quote as the preface. The process of product-building seldom goes according to plan. I've tried to document things in a way to make it easy to understand but it may not have been the actual order of execution. These case-studies are also simplified for the sake of making them read-worthy.</small>
-	<hr class="solid-line">
+	<div class="py-4">
+	</div>
 	<div class="row">
         {% assign sorted = site.case_studies | sort: 'position' %}
 		{% for case_study in sorted %}
-			<div class="col-md-6 case-study-card">
-					<a href="{{ case_study.url }}">
-				<div>
-		            <img class="case-study-image" src="{{ case_study.asset | prepend: '/assets/img/case-study/'}}" alt="{{case_study.name | prepend: 'image-'}}">
-				</div>
-				<h2>
-					  {{ case_study.name }}
-				</h2>
-			  <p>{{ case_study.tag }}</p>
+			<div class="col-md-6 card">
+				<a href="{{ case_study.url }}">
+					<div>
+			            <img class="case-study-image" src="{{ case_study.asset | prepend: '/assets/img/case-study/'}}" alt="{{case_study.name | prepend: 'image-'}}">
+					</div>
+					<h2>
+						  {{ case_study.name }}
+					</h2>
+			  		<p>{{ case_study.tag }}</p>
+				</a>
 			</div>
-					</a>
 		{% endfor %}
 	</div>
-
+	<hr>
 </div>
