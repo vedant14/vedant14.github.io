@@ -3,29 +3,29 @@
   category: Work
   asset: homzhub.jpg
   align: right
-  content: <p>I have always been fascinated by startups and couldn't wait to join one. I joined Homzhub, only after a month of its founding. </p>
+  content:
+    <p>I have always been fascinated by startups and couldn't wait to join one. I joined Homzhub, only after a month of its founding. </p>
     <p> We were a very small team of 4 and I wasn't sure which was the right path for my career so I took part in all activities of the company - business operations, strategising, customer support, product management, marketing, hiring too.</p>
-    <p>Eventually, I realised I liked being a <a href="https://twitter.com/paraschopra/status/1206273650422251520" target="_blank">generalist</a> and making products.</p> 
-
+    <p>Eventually, I realised I liked being a <a href="https://twitter.com/paraschopra/status/1206273650422251520" target="_blank">generalist</a> and making products.</p>
 
 - name: Building Products
   date: Present
   category: Experiences
   asset: products.jpg
   align: right
-  content: <p>I do not like the word product-maker, (it does sound too big for what I do) but for the lack of a better word I'll still use it. </p>
+  content:
+    <p>I do not like the word product-maker, (it does sound too big for what I do) but for the lack of a better word I'll still use it. </p>
     <p>With my team at Homzhub, <underline>we have launched our web-platform and 2 mobile apps</underline> for property investors and managers around the world.</p>
     <p>I have also created several no-code tools for our team to use to serve our 250+ clients.</p>
     <p>I have launched a few solo-products as well. You will learn about some of those below.</p>
-
 
 - name: Make A Difference (Volunteer and City Manager)
   date: 2015 to 2019
   category: Experiences
   asset: makeadiff2.jpg
   align: left
-  content: 
-    <p>Without a doubt, one of the most important experiences of my life - my journey with <a href="https://makeadiff.in">Make A Difference</a>.</p> 
+  content:
+    <p>Without a doubt, one of the most important experiences of my life - my journey with <a href="https://makeadiff.in">Make A Difference</a>.</p>
     <p>I worked with some of the best youth across 24 cities in the country. I learned so much from being part of such an amazing team working towards a common cause that <underline>I really won’t be able to put into words.</underline></p>
     <p>I think it is safe to say, I got more out of volunteering my time at this non-profit than I could ever hope to repay. </p>
 
@@ -44,26 +44,27 @@
   category: Experiences
   asset: startups.jpg
   align: left
-  content: I wanted to try and execute a few ideas of my own. I tried to create a <a href="https://github.com/vedant14/realEstate" target="_blank">custom CRM for real estate agents.</a><br>
+  content:
+    I wanted to try and execute a few ideas of my own. I tried to create a <a href="https://github.com/vedant14/realEstate" target="_blank">custom CRM for real estate agents.</a><br>
     <underline>I used to call hundereds of agents everyday</underline>, scrapping numbers from lisitng sites.<br>A few were interested but then because this was also my first code project, it wasn't a big enough value addition for them.<br> All in, it was still great exposure and learning experience for me.<br>
-      Once, me and a group of my friends also tried to launch an under-wear company which never saw the light of the day
+    Once, me and a group of my friends also tried to launch an under-wear company which never saw the light of the day
 
 - name: Self-taught coder
   date: 2020 to present
   category: Experiences
   asset: freelance.jpg
   align: right
-  content: <p>I wanted to improve my coding skills and test myself on a few real world projects. If working in customer support taught me one thing, it is <underline>an angry customer is a powerful motivating factor</underline>.<br> I also wanted to buy a new cycle :P </p>
+  content:
+    <p>I wanted to improve my coding skills and test myself on a few real world projects. If working in customer support taught me one thing, it is <underline>an angry customer is a powerful motivating factor</underline>.<br> I also wanted to buy a new cycle :P </p>
     So, I tried my hand at freelancing. Tbh, freelancing isn't as easy as people picture it to be.
-    At several points during the project, I felt that I bit more than I could chew. 
-    <p><a href="https://www.trendyturn.com" target="_blank">Link to one of my projects.</a></p>
-
-
+    At several points during the project, I felt that I bit more than I could chew.
+    <p><a href="https://finance.aggyabhishek.com/" target="_blank">Link to one of my projects.</a></p>
 
 - name: Engineering Graduate
   date: 2013 to 2017
   category: Experiences
   asset: college2.jpg
   align: left
-  content: Well. If you are an Indian with a knack for maths, you will invariably find yourself in an engineering school at some point in your life. <br>This is a non-negotiable treaty that we signed with our parents I suppose. <br> 
+  content:
+    Well. If you are an Indian with a knack for maths, you will invariably find yourself in an engineering school at some point in your life. <br>This is a non-negotiable treaty that we signed with our parents I suppose. <br>
     Anyway, I got to build a car here, <underline>an actual human-size car!</underline><br> So no-complaints
