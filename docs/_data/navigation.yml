@@ -1,6 +1,6 @@
 - name: Home
   link: "/"
-  category: nav
+  category: bignav
   position: 1
 
 - name: Work
