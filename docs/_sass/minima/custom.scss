@@ -1,17 +1,11 @@
-
 /*Header*/
 
-.head-blob{
+.head-blob {
   position: absolute !important;
   z-index: -2;
-  @media screen and (min-width: 768px) {
-    left: 100px;
-    max-width: 700px;
-  }
 }
 
-
-.head-image{
+.head-image {
   height: 300px;
   width: 200px;
   object-fit: cover;
@@ -20,28 +14,39 @@
   margin: 30px auto 10px auto;
   display: flex;
   box-shadow: 20px 20px rgba(116, 170, 140, 0.6);
-  @media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 768px) {
+  .head-blob {
+    left: 100px;
+    max-width: 700px;
+  }
+  .head-image {
     margin-top: 100px;
     height: 300px;
     width: 200px;
   }
 }
 
-
-
-@media (max-width: 450px) {                  
-   .idea-image, .other-image {
-      display: none;
-   }
-   .head-blob {
+@media (max-width: 450px) {
+  .idea-image,
+  .other-image {
+    display: none;
+  }
+  .head-blob {
     width: 70%;
-   }
+  }
+  .divider {
+    border-right: none;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px solid $text-white;
+  }
 }
 
-
-.social-media-list > a, .social-footer > a {
-    text-decoration: none;
-    margin-left: 10px;
+.social-media-list > a,
+.social-footer > a {
+  text-decoration: none;
+  margin-left: 10px;
 }
 
 .social-footer {
@@ -52,36 +57,37 @@
 }
 
 .svg-icon {
-    width: 20px;
-    height: 20px;
-    margin-top: 2px;
-    display: inline-block;
-    vertical-align: text-top;
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+  display: inline-block;
+  vertical-align: text-top;
 }
-
 
 .site-title {
   margin-top: 25%;
   margin-left: auto;
   margin-right: auto;
   @include relative-font-size(2);
-  font-weight:900;
+  font-weight: 900;
   text-align: center;
 }
 
-
 /*BIO*/
-.bio-list{
+.bio-list {
   list-style: none;
   border-radius: 20px 20px 0px 0px;
   padding: 20px 20px 20px 20px;
-  background: linear-gradient(180deg, $brand-color 12.5%, $background-color 100%);
+  background: linear-gradient(
+    180deg,
+    $brand-color 12.5%,
+    $background-color 100%
+  );
 }
 
-
 /*Experience Section*/
-.experience-cards{
-  display: block !important; 
+.experience-cards {
+  display: block !important;
   margin-bottom: 200px;
 }
 
@@ -96,7 +102,6 @@
 .image-right {
   left: 50px;
   box-shadow: 5px 5px 0px $shadow-color;
-
 }
 
 .image-left {
@@ -112,11 +117,10 @@
   width: 80%;
   min-height: 400px;
   border: solid $shadow-color;
-  border-radius: 20px; 
+  border-radius: 20px;
   top: 110px;
   margin-bottom: 30px;
 }
-
 
 .card-right {
   margin-right: 10%;
@@ -131,44 +135,44 @@
 }
 
 .headline {
-    margin-top: 30px;
-    margin-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-
 
 /*Content Highlights*/
-underline{
-    background-image: linear-gradient(transparent 45%,$headline-color 20%,$headline-color 90%,transparent 10px);
-    width: fit-content;
+underline {
+  background-image: linear-gradient(
+    transparent 45%,
+    $headline-color 20%,
+    $headline-color 90%,
+    transparent 10px
+  );
+  width: fit-content;
 }
 
-
-.caption{
+.caption {
   font-size: 0.95rem;
   font-style: italic;
   color: $text-lighter;
 }
 
-.bio-first{
+.bio-first {
   font-size: 1.3rem;
 }
 
-.bio-second{
+.bio-second {
   font-size: 1.2rem;
 }
 
-
-.bio-third{
+.bio-third {
   font-size: 1rem;
 }
 
-
-.bio-fourth{
+.bio-fourth {
   font-size: 1rem;
 }
 
-
-.bio-fifth{
+.bio-fifth {
   font-size: 1rem;
 }
 
@@ -177,7 +181,7 @@ underline{
   text-decoration: underline !important;
 }
 
-.drop-case{
+.drop-case {
   position: absolute;
   top: -90px;
   font-family: $base-head-font;
@@ -223,20 +227,11 @@ underline{
 }
 
 #btntop:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
-
-.divider{
+.divider {
   border-right: 1px solid $text-white;
-
-  @media (max-width: 450px) {                  
-      border-right: none;
-      padding-bottom: 10px;
-      text-align: center;
-      border-bottom: 1px solid $text-white;
-
-     }
 }
 
 /*Nav */
@@ -244,7 +239,6 @@ underline{
   padding-top: $spacing-unit;
   padding-bottom: 0px !important;
 }
-
 
 .nav-line {
   opacity: 0%;
@@ -272,18 +266,17 @@ div.scrollmenu a {
 }
 
 div.scrollmenu::-webkit-scrollbar {
-  display: none; 
+  display: none;
 }
 
 div.scrollmenu a:hover {
   background-image: none;
 }
 
-
 /*Case Study*/
-.case-study{
+.case-study {
   max-width: 1000px;
-   margin: 50px auto;
+  margin: 50px auto;
   @media screen and (min-width: 768px) {
     margin: 150px auto;
   }
@@ -295,33 +288,33 @@ div.scrollmenu a:hover {
   }
 }
 
-.card{
+.card {
   background: $brand-color;
   padding: 20px 20px;
   border-radius: 5px;
   > a {
     color: $text-color !important;
   }
-  > h3{
+  > h3 {
     cursor: default;
     padding-inline-start: 20px;
     margin: 0px;
     border: 1px dotted $shadow-color;
     padding: 2px 10px;
     width: fit-content;
-    &:hover{
+    &:hover {
       background: $shadow-color;
       color: $text-white;
     }
   }
-  > ol > a > li{
+  > ol > a > li {
     color: $text-color;
     border-radius: 2px;
     padding: 2px 5px;
-    &:hover{
+    &:hover {
       background: $text-white;
       text-decoration: underline;
-    };
+    }
   }
 }
 
@@ -338,7 +331,7 @@ div.scrollmenu a:hover {
     border: 1px dotted $shadow-color;
     padding: 2px 20px;
     width: fit-content;
-    &:hover{
+    &:hover {
       background: $shadow-color;
       color: $text-white;
     }
@@ -346,16 +339,17 @@ div.scrollmenu a:hover {
   > a {
     color: $text-lighter !important;
     text-decoration: underline;
-    &:hover{
+    &:hover {
       color: $text-color;
     }
   }
 }
 
-.content{
+.content {
   cursor: default;
   max-width: 800px;
-  > p, > ul > li {
+  .content > p,
+  > ul > li {
     line-height: 1.5rem;
     font-size: 1.1rem;
   }
@@ -374,9 +368,77 @@ div.scrollmenu a:hover {
     border: 1px dotted $shadow-color;
     padding: 2px 10px;
     width: fit-content;
-    &:hover{
+    &:hover {
       background: $shadow-color;
       color: $text-white;
     }
   }
+}
+
+@media screen and (max-width: 600px) {
+  .ham {
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    right: 2%;
+    z-index: 100;
+    top: 5%;
+  }
+}
+
+.ham {
+  display: inline-block;
+  cursor: pointer;
+  background: $background-color;
+  border-radius: 4px;
+  padding: 15px;
+  position: fixed;
+  z-index: 100;
+  right: 5%;
+  top: 5%;
+}
+
+@media screen and (min-width: 768px) {
+  .ham {
+    right: 10%;
+    top: 2%;
+  }
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.2s;
+}
+
+.topnav {
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(231, 231, 222, 0.8);
+  z-index: 50;
+}
+
+.change .topnav {
+  display: block;
+  transition: 0.2s;
+}
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
 }
