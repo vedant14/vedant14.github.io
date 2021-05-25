@@ -1,28 +1,19 @@
 - name: Work
-  link: '/#work'
+  link: "/#work"
   category: nav
   position: 1
 
 - name: Experiences
-  link: '/#experiences'
+  link: "/#experiences"
   category: nav
   position: 2
 
-
-- name: Case-Studies &#8599
+- name: Case-Studies
   link: /case-studies
   category: bignav
   position: 3
 
-
-# - name: Empathy
-#   category: Product Management
-
-# - name: Enterprising
-#   category: Product Management
-  
-# - name: Empathy
-#   category: Product Management
-
-# - name: Empathy
-#   category: Product Management
+- name: Better-Product-Manager &#8599
+  link: "https://betterproductmanager.com/"
+  category: external
+  position: 4

@@ -1,7 +1,25 @@
-
-<div class="wrapper" id="myDIV">
-    {% assign sorted = site.data.navigation | sort: 'position' %}
-    {% for experience in sorted %}
-        <a href="{{experience.link }}">{{ experience.name | upcase }}  </a>
-    {% endfor %}
+<div onclick="modalFunction(this)">
+    <div class="ham" >
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+    <div class="topnav">
+        <div class="nav">
+            {% assign sorted = site.data.navigation | sort: 'position' %}
+            <div class="grid-top-nav">
+                {% for experience in sorted %}
+                    <div class="grid-items">
+                        <a href="{{experience.link }}" {% if experience.category contains "external" %} target="_blank" {% endif %} >{{ experience.name | upcase }}  </a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
 </div>
+
+<script >
+    function modalFunction(x) {
+      x.classList.toggle("change");
+    }
+</script>
