@@ -1,19 +1,24 @@
+- name: Home
+  link: "/"
+  category: nav
+  position: 1
+
 - name: Work
   link: "/#work"
   category: nav
-  position: 1
+  position: 2
 
 - name: Experiences
   link: "/#experiences"
   category: nav
-  position: 2
+  position: 3
 
 - name: Case-Studies
   link: /case-studies
   category: bignav
-  position: 3
+  position: 4
 
 - name: Better-Product-Manager &#8599
   link: "https://betterproductmanager.com/"
   category: external
-  position: 4
+  position: 5

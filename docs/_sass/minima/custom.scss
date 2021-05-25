@@ -237,7 +237,7 @@ underline {
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(231, 231, 222, 0.8);
+  background: rgba(231, 231, 222, 0.85);
   z-index: 50;
 }
 
@@ -271,7 +271,15 @@ underline {
 }
 
 .grid-items a {
+  font-size: 18px;
+}
+
+.home-button {
+  top: 4%;
+  margin-left: 80px;
+  display: none;
   font-size: 24px;
+  padding: 4px;
 }
 @media screen and (min-width: 768px) {
   .head-blob {
@@ -286,11 +294,18 @@ underline {
 
   .ham {
     right: 10%;
-    top: 2%;
+    top: 4%;
+  }
+  .home-button {
+    display: block;
   }
 
   .grid-top-nav {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .grid-items a {
+    font-size: 24px;
   }
 }
 
