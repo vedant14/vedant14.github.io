@@ -8,7 +8,7 @@
 		{% for experience in site.data.content %}
 			{% if experience.category == nav.name %}
 			<div class="experience-cards" id="{{experience.name | downcase }}">
-                <img class="bg-img-hero {{experience.align | prepend: 'image-' }} " src="{{ experience.asset | prepend: '/assets/img/'}}" alt="{{experience.name | prepend: 'image-'}}">
+                <img class="bg-img-hero {{experience.align | prepend: 'image-' }} " src="{{ experience.asset | prepend: '/assets/img/experience/'}}" alt="{{experience.name | prepend: 'image-'}}">
 
 				  <div class="content-card {{experience.align | prepend: 'card-'}}">
 				  	<span class="drop-case">
