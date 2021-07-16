@@ -1,7 +1,7 @@
 {% assign socials = site.data.social | sort: 'position' %}
 {% for social in socials %}
     <span class="social-media-list">
-      <a href="{{social.link}}" target="_blank" class= ""> <img class="svg-icon" src="/assets/img/social/{{social.icon}}" alt="{{social.name}}"></use></svg>
+      <a href="{{social.link}}" target="_blank" rel="noopener noreferrer" > <img class="svg-icon" src="/assets/img/social/{{social.icon}}" alt="{{social.name}}"></use></svg>
       </a>
     </span>
 {% endfor %}

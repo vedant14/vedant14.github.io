@@ -1,0 +1,27 @@
+---
+layout: products
+permalink: /product-portfolio/
+
+---
+{% assign sorted = site.data.products | sort: 'position' %}
+<div class="wrapper my-10">
+	<h1>Hi I am Vedant.
+	I use <a href="https://github.com/vedant14" target="_blank" rel="noopener noreferrer">code</a>, no-code or have worked as a 
+	<a href="https://www.betterproductmanager.com/" target="_blank" rel="noopener noreferrer">product manager</a> to work/launch the following products.</h1>
+</div>
+<ol class="mx-0 my-5">
+	{% for product in sorted %}
+			<div class="wrapper" id="{{product.name | downcase }}">
+				<a href= {{product.link}} target="_blank" rel="noopener noreferrer" />
+				  <div class="product-card">
+				  	<h3> {{product.name }} </h3>
+				  	<p class="caption">{{product.tag}} {{product.time | prepend: "| "}}</p>
+				  	<span>
+				  		{{product.description}}
+				  	</span>
+				  	<img src="/assets/img/icons/return_icon.svg" class="return-icon">
+				  </div>
+				</a>
+			</div>
+	{% endfor %}
+</ol>

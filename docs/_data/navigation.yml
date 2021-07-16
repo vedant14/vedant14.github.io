@@ -13,12 +13,16 @@
   category: nav
   position: 3
 
-# - name: Case-Studies
-#   link: /case-studies
-#   category: bignav
-#   position: 4
+- name: My Product Portfolio
+  link: "/product-portfolio"
+  category: bignav
+  position: 4
 
 - name: Product Management Notes &#8599
   link: "https://betterproductmanager.com/"
   category: external
   position: 5
+# - name: Case-Studies
+#   link: /case-studies
+#   category: bignav
+#   position: 4
